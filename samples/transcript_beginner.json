@@ -1,0 +1,30 @@
+{
+  "session_id": "sample-123",
+  "history": [
+    {
+      "role": "agent",
+      "text": "Hello \u2014 I am your Excel mock interviewer..."
+    },
+    {
+      "role": "agent",
+      "text": "Explain the difference between VLOOKUP and INDEX+MATCH..."
+    },
+    {
+      "role": "user",
+      "text": "VLOOKUP searches left column; INDEX+MATCH is more flexible"
+    }
+  ],
+  "results": [
+    {
+      "question_id": "q1",
+      "answer": "VLOOKUP searches left column; INDEX+MATCH is more flexible",
+      "grade": {
+        "score": 3,
+        "short_reason": "heuristic fallback",
+        "suggestions": [
+          "Be more specific"
+        ]
+      }
+    }
+  ]
+}
